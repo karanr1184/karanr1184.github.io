@@ -1,5 +1,5 @@
 ---
-title: "Simplifying Docker Deployment with Docker Compose"
+title: "Getting started with Docker Deployment with Docker Compose"
 date: 2024-04-24 00:00:00 +0800
 categories: [Blog, Docker]
 tags: [Docker]   
@@ -7,6 +7,24 @@ tags: [Docker]
 
 
 ## Overview
+Welcome to the world of Docker! This guide will walk you through the basics of Docker containerization, from understanding Docker images to running containers. By the end, you'll have a solid foundation for using Docker to simplify your development and deployment workflows.
+
+Docker is an open-source platform that enables developers to build, ship, and run applications in lightweight containers. Containers package all the necessary dependencies and libraries required to run an application, ensuring consistency across different environments.
+
+### Docker Images
+
+A Docker image is a lightweight, standalone, executable package that contains everything needed to run a piece of software, including the code, runtime, libraries, and dependencies. Images are the building blocks of containers.
+
+### Docker Containers
+
+A Docker container is a runtime instance of a Docker image. Containers run isolated from each other and from the host system, ensuring that applications behave consistently across different environments.
+
+### Dockerfile
+
+A Dockerfile is a text file that contains instructions for building a Docker image. It specifies the base image, dependencies, and commands needed to set up the environment for running the application.
+
+## Use Case
+
 In modern software development, deploying applications efficiently is crucial. Docker has emerged as a popular solution for containerization, enabling developers to package their applications and dependencies into containers for easy deployment across different environments. Docker Compose, a tool for defining and running multi-container Docker applications, further streamlines this process by allowing you to define all your services in a single YAML file.
 
 This repository offers a Dockerized setup for deploying a simple web application stack consisting of MongoDB, MongoDB Express, an application server, and a web server. Docker and Docker Compose are utilized to streamline the deployment process.
@@ -21,7 +39,7 @@ This repository offers a Dockerized setup for deploying a simple web application
 1. **Clone this repository:**
 
     ```bash
-    git clone https://github.com/your-username/docker-web-app.git
+    git clone https://github.com/karanr1184/docker-IA2.git
     cd docker-web-app
     ```
 
